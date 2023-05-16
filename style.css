@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+.text-primary {
+  color: #39B14E !important;
+}
+
+.text-secondary {
+  color: #0E1B4D !important;
+}
+
+.text-white {
+  color: white !important;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.bg-primary {
+  background: #39B14E !important;
+}
+
+.bg-secondary {
+  background: #0E1B4D !important;
+}
+
+.btn-secondary {
+  background: rgba(14, 27, 77, 0.95);
+  border: none;
+}
+
+.btn-secondary:hover {
+  background: #0e1b4d;
+}
+
+.btn-primary {
+  background: rgba(57, 177, 78, 0.95);
+  border: none;
+}
+
+.btn-primary:hover {
+  background: #39b14e;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  background: #39B14E;
+}
+
+header h1 {
+  font-size: 3.5rem;
+}
+
+.why-worx img {
+  max-width: 450px;
+}
+
+.why-worx ul {
+  list-style-position: outside;
+}
+
+.why-worx ul li {
+  background: url("/assets/tick.png") no-repeat 7px 7px transparent;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 0px 1px 24px;
+  vertical-align: middle;
+}
+
+.benefits .container {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.benefits .card {
+  border: none;
+  border-radius: 2rem;
+}
+
+.worx_what_makes_it_better .card {
+  border-radius: 2rem;
+}
+
+.worx_what_makes_it_better .heading-gradient h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 78.5%;
+  background: linear-gradient(86.2deg, #226929 3.71%, #39B14E 82.63%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*# sourceMappingURL=style.css.map */
