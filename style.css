@@ -31,28 +31,29 @@
   background: rgba(14, 27, 77, 0.95);
   border: none;
 }
-
 .btn-secondary:hover {
   background: #0e1b4d;
+}
+
+.fw-600 {
+  font-weight: 600;
 }
 
 .btn-primary {
   background: rgba(57, 177, 78, 0.95);
   border: none;
 }
-
 .btn-primary:hover {
   background: #39b14e;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
   background: #39B14E;
 }
-
 header h1 {
   font-size: 3.5rem;
 }
@@ -60,11 +61,9 @@ header h1 {
 .why-worx img {
   max-width: 450px;
 }
-
 .why-worx ul {
   list-style-position: outside;
 }
-
 .why-worx ul li {
   background: url("/assets/tick.png") no-repeat 7px 7px transparent;
   list-style-type: none;
@@ -77,7 +76,6 @@ header h1 {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
-
 .benefits .card {
   border: none;
   border-radius: 2rem;
@@ -86,7 +84,6 @@ header h1 {
 .worx_what_makes_it_better .card {
   border-radius: 2rem;
 }
-
 .worx_what_makes_it_better .heading-gradient h1 {
   font-weight: 700;
   font-size: 4rem;
@@ -95,4 +92,41 @@ header h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/*# sourceMappingURL=style.css.map */
+
+.worx_testimomials .card {
+  filter: drop-shadow(-11px 17px 17px rgba(0, 0, 0, 0.25));
+}
+.worx_testimomials .card-1 {
+  transform: rotate(-7.07deg);
+}
+.worx_testimomials .card-3 {
+  transform: rotate(7.07deg);
+}
+
+.worx_shoose_size .card {
+  background: rgba(255, 255, 255, 0.7);
+  /* new */
+  box-shadow: 2px 4px 34px rgba(0, 0, 0, 0.25);
+  border-radius: 36px;
+}
+
+.worx_faq .collapse h5 {
+  line-height: 1.4;
+}
+.worx_faq .collapse-header {
+  border: 2px solid #0E1B4D;
+  border-radius: 0.5rem;
+  width: 100%;
+  text-align: start;
+  background: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

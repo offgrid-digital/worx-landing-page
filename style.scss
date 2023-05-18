@@ -17,7 +17,9 @@ $secondary-color: #0E1B4D;
         background: rgba($color: $secondary-color, $alpha: 1);
     }
 }
-
+.fw-600{
+    font-weight: 600;
+}
 .btn-primary {
     background: rgba($color: $primary-color, $alpha: 0.95);
     border: none;
@@ -81,6 +83,54 @@ header{
                 -webkit-text-fill-color: transparent;
             }
             
+        }
+    }
+}
+
+.worx_testimomials{
+    .card{
+        filter: drop-shadow(-11px 17px 17px rgba(0, 0, 0, 0.25));
+    }
+    .card-1{
+        transform: rotate(-7.07deg);
+    }
+
+        .card-3 {
+            transform: rotate(7.07deg);
+        }
+}
+
+.worx_shoose_size{
+    .card{
+        background: rgba(255, 255, 255, 0.7);
+        /* new */
+    
+        box-shadow: 2px 4px 34px rgba(0, 0, 0, 0.25);
+        border-radius: 36px;
+    }
+}
+.worx_faq{
+    .collapse{
+        h5{
+            line-height: 1.4;
+        }
+        &-header {
+            border: 2px solid $secondary-color;
+            border-radius: .5rem;
+            width: 100%;
+            text-align: start;
+            background: white;
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+    }
+}
+footer{
+    a{
+        color: white;
+        text-decoration: none;
+        &:hover{
+            text-decoration: none;
         }
     }
 }
