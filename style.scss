@@ -93,10 +93,25 @@ header{
     }
     .card-1{
         transform: rotate(-7.07deg);
+        @media screen and (max-width:999px) {
+            transform: rotate(0);
+        }
     }
 
         .card-3 {
             transform: rotate(7.07deg);
+            @media screen and (max-width:999px) {
+                transform: rotate(0);
+            }
+        }
+        .card-2{
+            position: relative;
+            top: -40px;
+
+            @media screen and (max-width:999px) {
+                position: relative;
+                top: 0;
+            }
         }
 }
 

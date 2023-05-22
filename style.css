@@ -99,8 +99,28 @@ header h1 {
 .worx_testimomials .card-1 {
   transform: rotate(-7.07deg);
 }
+@media screen and (max-width: 999px) {
+  .worx_testimomials .card-1 {
+    transform: rotate(0);
+  }
+}
 .worx_testimomials .card-3 {
   transform: rotate(7.07deg);
+}
+@media screen and (max-width: 999px) {
+  .worx_testimomials .card-3 {
+    transform: rotate(0);
+  }
+}
+.worx_testimomials .card-2 {
+  position: relative;
+  top: -40px;
+}
+@media screen and (max-width: 999px) {
+  .worx_testimomials .card-2 {
+    position: relative;
+    top: 0;
+  }
 }
 
 .worx_shoose_size .card {
