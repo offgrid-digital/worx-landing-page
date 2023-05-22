@@ -32,7 +32,20 @@ $secondary-color: #0E1B4D;
 body{
     font-family: 'Poppins', sans-serif;
 
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+
+    
 }
+
+
 
 header{
     background: $primary-color;
@@ -212,3 +225,4 @@ footer{
     left: 200%;
     opacity: 0.6;
 }
+
