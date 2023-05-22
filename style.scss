@@ -37,6 +37,8 @@ body{
     scrollbar-width: none;
     /* Firefox */
 
+    scroll-behavior: smooth;
+
     &::-webkit-scrollbar {
         display: none;
     }
