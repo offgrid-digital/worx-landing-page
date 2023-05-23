@@ -71,6 +71,12 @@ header {
 header h1 {
   font-size: 3.5rem;
 }
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+}
 header .worx_hand_cleaner_mbl {
   display: none;
 }
