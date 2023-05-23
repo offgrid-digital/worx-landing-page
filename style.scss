@@ -36,7 +36,6 @@ $secondary-color: #0E1B4D;
 
 body{
     font-family: 'Poppins', sans-serif;
-
     -ms-overflow-style: none;
     /* IE and Edge */
     scrollbar-width: none;
@@ -182,6 +181,21 @@ header{
 }
 
 .worx_shoose_size{
+
+    .free-shipping-banner{
+        img{
+            position: relative;
+            width: 106%;
+            left: -10px;
+
+            @media screen and (max-width:999px) {
+                position: relative;
+                width: 165%;
+                left: -100px;
+            }
+        }
+    }
+
     .card{
         background: rgba(255, 255, 255, 0.7);
         /* new */
@@ -281,14 +295,30 @@ footer{
 
 .worx_property, .worx_trusted{
     &_desktop{
-        @media screen and (max-width:999px) {
+        @media screen and (max-width:768px) {
             display: none !important;
         }
     }
 
     &_mbl{
-        @media screen and (max-width:999px) {
+        @media screen and (max-width:768px) {
             display: block !important;
         }
     }
 }
+
+
+
+// .worx_trusted {
+//     &_desktop {
+//         @media screen and (max-width:999px) {
+//             display: none !important;
+//         }
+//     }
+
+//     &_mbl {
+//         @media screen and (max-width:999px) {
+//             display: block !important;
+//         }
+//     }
+// }
