@@ -54,6 +54,32 @@ header{
     h1{
         font-size: 3.5rem;
     }
+
+    .worx_hand_cleaner_mbl{
+        display: none;
+
+        @media screen and (max-width:768px) {
+            display: block;
+        }
+    }
+
+    .worx_hand_cleaner_dsktop{
+        @media screen and (max-width:768px) {
+                display: none;
+            }
+    }
+    .butn{
+        @media screen and (max-width:768px) {
+            width: 100%;
+        }
+    }
+
+    .button-parent{
+        width: 75%;
+        @media screen and (max-width:768px) {
+            width: 100%;
+        }
+    }
 }
 .why-worx{
     img{
@@ -96,6 +122,10 @@ header{
                 background: linear-gradient(86.2deg, #226929 3.71%, #39B14E 82.63%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
+
+                @media screen and (max-width:999px) {
+                    font-size: 2.25rem;
+                }
             }
             
         }
@@ -113,21 +143,33 @@ header{
         }
     }
 
-        .card-3 {
-            transform: rotate(7.07deg);
-            @media screen and (max-width:999px) {
-                transform: rotate(0);
-            }
+    .card-3 {
+        transform: rotate(7.07deg);
+        @media screen and (max-width:999px) {
+            transform: rotate(0);
         }
-        .card-2{
-            position: relative;
-            top: -40px;
+    }
+    .card-2{
+        position: relative;
+        top: -40px;
 
-            @media screen and (max-width:999px) {
-                position: relative;
-                top: 0;
-            }
+        @media screen and (max-width:999px) {
+            position: relative;
+            top: 0;
         }
+    }
+
+    &_cards{
+        @media screen and (max-width:999px) {
+            display: none;
+        }
+    }
+
+    &_mbl_carousel{
+        @media screen and (max-width:999px) {
+            display: block !important;
+        }
+    }
 }
 
 .worx_shoose_size{

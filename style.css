@@ -65,6 +65,32 @@ header {
 header h1 {
   font-size: 3.5rem;
 }
+header .worx_hand_cleaner_mbl {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  header .worx_hand_cleaner_mbl {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .worx_hand_cleaner_dsktop {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .butn {
+    width: 100%;
+  }
+}
+header .button-parent {
+  width: 75%;
+}
+@media screen and (max-width: 768px) {
+  header .button-parent {
+    width: 100%;
+  }
+}
 
 .why-worx img {
   max-width: 450px;
@@ -100,6 +126,11 @@ header h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media screen and (max-width: 999px) {
+  .worx_what_makes_it_better .heading-gradient h1 {
+    font-size: 2.25rem;
+  }
+}
 
 .worx_testimomials .card {
   filter: drop-shadow(-11px 17px 17px rgba(0, 0, 0, 0.25));
@@ -128,6 +159,16 @@ header h1 {
   .worx_testimomials .card-2 {
     position: relative;
     top: 0;
+  }
+}
+@media screen and (max-width: 999px) {
+  .worx_testimomials_cards {
+    display: none;
+  }
+}
+@media screen and (max-width: 999px) {
+  .worx_testimomials_mbl_carousel {
+    display: block !important;
   }
 }
 
