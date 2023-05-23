@@ -202,7 +202,7 @@ header{
             text-align: start;
             background: white;
             font-size: 1.25rem;
-            font-weight: 600;
+            font-weight: 500;
             // transition: 0.2s ease-in-out;
             // &:hover{
             //     background: rgba($color: $secondary-color, $alpha:.05);
@@ -279,3 +279,16 @@ footer{
     opacity: 0.6;
 }
 
+.worx_property{
+    &_desktop{
+        @media screen and (max-width:999px) {
+            display: none !important;
+        }
+    }
+
+    &_mbl{
+        @media screen and (max-width:999px) {
+            display: block !important;
+        }
+    }
+}
