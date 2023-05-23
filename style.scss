@@ -28,6 +28,11 @@ $secondary-color: #0E1B4D;
         background: rgba($color: $primary-color, $alpha: 1);
     }
 }
+.btn{
+    @media screen and (max-width:768px) {
+        width: 100%;
+    }
+}
 
 body{
     font-family: 'Poppins', sans-serif;

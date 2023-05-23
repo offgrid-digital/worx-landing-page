@@ -47,6 +47,12 @@
   background: #39b14e;
 }
 
+@media screen and (max-width: 768px) {
+  .btn {
+    width: 100%;
+  }
+}
+
 body {
   font-family: "Poppins", sans-serif;
   -ms-overflow-style: none;
