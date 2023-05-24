@@ -29,6 +29,7 @@ $('.worx_property_mbl > .owl-carousel').owlCarousel({
     margin: 10,
     nav: false,
     dot: true,
+    center:true,
     // animateOut: 'slideOutDown',
     // animateIn: 'flipInX',
     // smartSpeed: 450,
@@ -37,11 +38,11 @@ $('.worx_property_mbl > .owl-carousel').owlCarousel({
     
     responsive: {
         0: {
-            items: 1,
+            items: 1.25,
             
         },
         600: {
-            items: 1
+            items: 1.25
         },
         767: {
             items: 1.1

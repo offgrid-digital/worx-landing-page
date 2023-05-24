@@ -297,7 +297,7 @@ footer{
     opacity: 0.6;
 }
 
-.worx_property, .worx_trusted{
+.worx_property, .worx_trusted, .worx_comparison{
     &_desktop{
         @media screen and (max-width:768px) {
             display: none !important;
