@@ -123,16 +123,12 @@ header{
 
 
         &-gradient{
-            h1{
-                font-weight: 700;
-                font-size: 4rem;
-                line-height: 78.5%;
-                background: linear-gradient(86.2deg, #226929 3.71%, #39B14E 82.63%);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-
+            img{
+                width: 55%;
                 @media screen and (max-width:999px) {
-                    font-size: 2.25rem;
+                    width: 85% !important;
+                    position: relative;
+                    left: -12px;
                 }
             }
             
@@ -304,6 +300,37 @@ footer{
         @media screen and (max-width:768px) {
             display: block !important;
         }
+    }
+}
+.accordion{
+    &-item {
+        border: 2px solid $secondary-color !important;
+        border-radius: 8px !important;
+        overflow: hidden;
+    }
+    &-header{
+        h2{
+            font-size: 1.25rem !important;
+        }
+        button{
+            background: white !important;
+            font-size: 1.25rem !important;
+            font-weight: 500 !important;
+            text-decoration: none !important;
+            color: $secondary-color !important;
+            &:focus{
+                box-shadow: none !important;
+                border-bottom: 2px solid $secondary-color !important;;
+            }
+            &:not(.collapsed){
+                box-shadow: none !important;
+                border-bottom: 2px solid $secondary-color !important;
+                    ;
+            }
+        }
+    }
+    &-body{
+        color: $secondary-color;
     }
 }
 

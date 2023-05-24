@@ -130,17 +130,14 @@ header .button-parent {
 .worx_what_makes_it_better .card {
   border-radius: 2rem;
 }
-.worx_what_makes_it_better .heading-gradient h1 {
-  font-weight: 700;
-  font-size: 4rem;
-  line-height: 78.5%;
-  background: linear-gradient(86.2deg, #226929 3.71%, #39B14E 82.63%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.worx_what_makes_it_better .heading-gradient img {
+  width: 55%;
 }
 @media screen and (max-width: 999px) {
-  .worx_what_makes_it_better .heading-gradient h1 {
-    font-size: 2.25rem;
+  .worx_what_makes_it_better .heading-gradient img {
+    width: 85% !important;
+    position: relative;
+    left: -12px;
   }
 }
 
@@ -292,4 +289,31 @@ footer a:hover {
   .worx_property_mbl, .worx_trusted_mbl {
     display: block !important;
   }
+}
+
+.accordion-item {
+  border: 2px solid #0E1B4D !important;
+  border-radius: 8px !important;
+  overflow: hidden;
+}
+.accordion-header h2 {
+  font-size: 1.25rem !important;
+}
+.accordion-header button {
+  background: white !important;
+  font-size: 1.25rem !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  color: #0E1B4D !important;
+}
+.accordion-header button:focus {
+  box-shadow: none !important;
+  border-bottom: 2px solid #0E1B4D !important;
+}
+.accordion-header button:not(.collapsed) {
+  box-shadow: none !important;
+  border-bottom: 2px solid #0E1B4D !important;
+}
+.accordion-body {
+  color: #0E1B4D;
 }/*# sourceMappingURL=style.css.map */
