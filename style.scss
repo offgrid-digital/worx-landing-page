@@ -200,6 +200,14 @@ header{
         border-radius: 36px;
     }
 }
+
+.card-body{
+    iframe{
+        width: 100%;
+        overflow: hidden;
+        aspect-ratio: 9/20;
+    }
+}
 .worx_faq{
     .collapse{
         h5{
