@@ -58,7 +58,7 @@ $('.worx_trusted_mbl > .owl-carousel').owlCarousel({
     // animateOut: 'slideOutDown',
     // animateIn: 'flipInX',
     // smartSpeed: 450,
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 2000,
     
     responsive: {
@@ -67,7 +67,7 @@ $('.worx_trusted_mbl > .owl-carousel').owlCarousel({
             
         },
         600: {
-            items: 1
+            items: 1.2
         },
         767: {
             items: 1.1

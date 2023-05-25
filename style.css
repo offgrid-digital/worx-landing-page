@@ -197,7 +197,7 @@ header .button-parent {
 }
 @media screen and (max-width: 967px) {
   .worx_what_makes_it_better_mbl {
-    display: block;
+    display: block !important;
   }
 }
 
@@ -266,7 +266,7 @@ header .button-parent {
 }
 @media screen and (max-width: 968px) {
   .worx_shoose_size_mbl {
-    display: block;
+    display: block !important;
   }
 }
 .worx_shoose_size_mbl .accordion-item {

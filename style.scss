@@ -208,7 +208,7 @@ header{
 
     &_mbl {
         @media screen and (max-width:967px) {
-            display: block;
+            display: block !important;
         }
     }
 }
@@ -285,7 +285,7 @@ header{
 
     &_mbl {
         @media screen and (max-width:968px) {
-            display: block;
+            display: block !important;
         }
 
         .accordion-item{
