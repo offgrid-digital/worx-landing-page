@@ -140,6 +140,16 @@ header .button-parent {
     left: -12px;
   }
 }
+@media screen and (max-width: 968px) {
+  .worx_what_makes_it_better_desktop {
+    display: none;
+  }
+}
+@media screen and (max-width: 967px) {
+  .worx_what_makes_it_better_mbl {
+    display: block;
+  }
+}
 
 .worx_testimomials .card {
   filter: drop-shadow(-11px 17px 17px rgba(0, 0, 0, 0.25));

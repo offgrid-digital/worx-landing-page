@@ -134,6 +134,18 @@ header{
             
         }
     }
+
+    &_desktop{
+        @media screen and (max-width:968px) {
+            display: none;
+        }
+    }
+
+    &_mbl {
+        @media screen and (max-width:967px) {
+            display: block;
+        }
+    }
 }
 
 .worx_testimomials{
