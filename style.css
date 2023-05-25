@@ -274,9 +274,8 @@ header .button-parent {
   border: none;
 }
 .worx_shoose_size_mbl .accordion-button {
-  font-size: 1.5rem;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
+  font-size: 1.25rem;
+  padding: 0.65rem 1.6rem !important;
   font-weight: 700;
   color: #39B14E;
 }
