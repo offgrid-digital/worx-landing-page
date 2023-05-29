@@ -19,6 +19,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css"
         integrity="sha512-gMjQeDaELJ0ryCI+FtItusU9MkAifCZcGq789FrzkiM49D8lbDhoaUaIX4ASU187wofMNlgBJ4ckbrXM9sE6Pg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        #product-component-1685341297708 {
+            max-width: 100% !important;
+        }
+
+        button.shopify-buy__btn {
+            width: 100%;
+        }
+        .shopify-buy__btn-wrapper{
+            margin-top: 0 !important;
+        }
+    </style>
 
 </head>
 
@@ -162,8 +174,9 @@
 
                 <div class="col-md-12 my-5 pt-4">
                     <div class=" text-center">
-                
-                        <a href="#chooseSize" class="butn butn__new btn btn-primary rounded-pill px-lg-5 px-md-5 px-sm-3 px-3 py-3">
+
+                        <a href="#chooseSize"
+                            class="butn butn__new btn btn-primary rounded-pill px-lg-5 px-md-5 px-sm-3 px-3 py-3">
                             <span class="fw-bold fs-3 text-uppercase text-white">Rush Me A Bottle Now</span> <br>
                             <span class="fw-400 text-white"><i class="fas fa-lock"></i> 60 Day, Risk-Free Order
                                 Protection</span>
@@ -336,8 +349,9 @@
 
                 <div class="col-md-12 mb-5 pb-4">
                     <div class=" text-center">
-                
-                        <a href="#chooseSize" class="butn butn__new btn btn-primary rounded-pill px-lg-5 px-md-5 px-sm-3 px-3 py-3">
+
+                        <a href="#chooseSize"
+                            class="butn butn__new btn btn-primary rounded-pill px-lg-5 px-md-5 px-sm-3 px-3 py-3">
                             <span class="fw-bold fs-3 text-uppercase text-white">Rush Me A Bottle Now</span> <br>
                             <span class="fw-400 text-white"><i class="fas fa-lock"></i> 60 Day, Risk-Free Order
                                 Protection</span>
@@ -1044,7 +1058,8 @@
                             <img src="/assets/product-size-2.png" class="mw-100" alt="">
                             <div class="py-4">
                                 <a class="butn butn__new btn btn-secondary rounded-pill w-100 fw-bold fs-4 text-uppercase text-white px-4 py-3"
-                                    href="https://worxhandcleaner.com.au/products/bio-active-hand-cleaner-small">Shop Now
+                                    href="https://worxhandcleaner.com.au/products/bio-active-hand-cleaner-small">Shop
+                                    Now
                                     <span class="text-primary">+</span></a>
                             </div>
                             <div class="text-center">
@@ -1068,173 +1083,174 @@
                                 <!-- <a class="butn butn__new btn btn-secondary rounded-pill w-100 fw-bold fs-4 text-uppercase text-white px-4 py-3"
                                     href="https://worxhandcleaner.com.au/products/bio-active-hand-cleaner-medium">Shop Now
                                     <span class="text-primary">+</span></a> -->
-                                    <div id='product-component-1685339324790'></div>
-                                    <script type="text/javascript">
-                                        /*<![CDATA[*/
-                                        (function () {
-                                            var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-                                            if (window.ShopifyBuy) {
-                                                if (window.ShopifyBuy.UI) {
-                                                    ShopifyBuyInit();
-                                                } else {
-                                                    loadScript();
-                                                }
+                                <div id='product-component-1685339324790'></div>
+                                <script type="text/javascript">
+                                    /*<![CDATA[*/
+                                    (function () {
+                                        var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                                        if (window.ShopifyBuy) {
+                                            if (window.ShopifyBuy.UI) {
+                                                ShopifyBuyInit();
                                             } else {
                                                 loadScript();
                                             }
-                                            function loadScript() {
-                                                var script = document.createElement('script');
-                                                script.async = true;
-                                                script.src = scriptURL;
-                                                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-                                                script.onload = ShopifyBuyInit;
-                                            }
-                                            function ShopifyBuyInit() {
-                                                var client = ShopifyBuy.buildClient({
-                                                    domain: 'worx-environmental-australia.myshopify.com',
-                                                    storefrontAccessToken: 'd6e87929c08f447624bf912ac20cc17d',
-                                                });
-                                                ShopifyBuy.UI.onReady(client).then(function (ui) {
-                                                    ui.createComponent('product', {
-                                                        id: '8201988276480',
-                                                        node: document.getElementById('product-component-1685339324790'),
-                                                        moneyFormat: '%24%7B%7Bamount%7D%7D',
-                                                        options: {
-                                                            "product": {
-                                                                "styles": {
-                                                                    "product": {
-                                                                        "@media (min-width: 601px)": {
-                                                                            "max-width": "calc(25% - 20px)",
-                                                                            "margin-left": "20px",
-                                                                            "margin-bottom": "50px"
-                                                                        }
-                                                                    },
-                                                                    "button": {
-                                                                        "font-size": "16px",
-                                                                        "padding-top": "16px",
-                                                                        "padding-bottom": "16px",
-                                                                        ":hover": {
-                                                                            "background-color": "#182e83"
-                                                                        },
-                                                                        "background-color": "#0e1b4d",
-                                                                        ":focus": {
-                                                                            "background-color": "#182e83"
-                                                                        },
-                                                                        "border-radius": "40px",
-                                                                        "padding-left": "86px",
-                                                                        "padding-right": "86px"
-                                                                    },
-                                                                    "quantityInput": {
-                                                                        "font-size": "16px",
-                                                                        "padding-top": "16px",
-                                                                        "padding-bottom": "16px"
+                                        } else {
+                                            loadScript();
+                                        }
+                                        function loadScript() {
+                                            var script = document.createElement('script');
+                                            script.async = true;
+                                            script.src = scriptURL;
+                                            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                                            script.onload = ShopifyBuyInit;
+                                        }
+                                        function ShopifyBuyInit() {
+                                            var client = ShopifyBuy.buildClient({
+                                                domain: 'worx-environmental-australia.myshopify.com',
+                                                storefrontAccessToken: 'd6e87929c08f447624bf912ac20cc17d',
+                                            });
+                                            ShopifyBuy.UI.onReady(client).then(function (ui) {
+                                                ui.createComponent('product', {
+                                                    id: '8201988276480',
+                                                    node: document.getElementById('product-component-1685339324790'),
+                                                    moneyFormat: '%24%7B%7Bamount%7D%7D',
+                                                    options: {
+                                                        "product": {
+                                                            "styles": {
+                                                                "product": {
+                                                                    "@media (min-width: 601px)": {
+                                                                        "max-width": "100%",
+                                                                        "margin-left": "20px",
+                                                                        "margin-bottom": "50px"
                                                                     }
                                                                 },
-                                                                "contents": {
-                                                                    "img": false,
-                                                                    "title": false,
-                                                                    "price": false
+                                                                "button": {
+                                                                    "font-size": "16px",
+                                                                    "padding-top": "16px",
+                                                                    "padding-bottom": "16px",
+                                                                    "width": "100%",
+                                                                    ":hover": {
+                                                                        "background-color": "#182e83"
+                                                                    },
+                                                                    "background-color": "#0e1b4d",
+                                                                    ":focus": {
+                                                                        "background-color": "#182e83"
+                                                                    },
+                                                                    "border-radius": "40px",
+                                                                    "padding-left": "86px",
+                                                                    "padding-right": "86px"
                                                                 },
-                                                                "text": {
-                                                                    "button": "Add to cart"
+                                                                "quantityInput": {
+                                                                    "font-size": "16px",
+                                                                    "padding-top": "16px",
+                                                                    "padding-bottom": "16px"
                                                                 }
                                                             },
-                                                            "productSet": {
-                                                                "styles": {
-                                                                    "products": {
-                                                                        "@media (min-width: 601px)": {
-                                                                            "margin-left": "-20px"
-                                                                        }
-                                                                    }
-                                                                }
+                                                            "contents": {
+                                                                "img": false,
+                                                                "title": false,
+                                                                "price": false
                                                             },
-                                                            "modalProduct": {
-                                                                "contents": {
-                                                                    "img": false,
-                                                                    "imgWithCarousel": true,
-                                                                    "button": false,
-                                                                    "buttonWithQuantity": true
-                                                                },
-                                                                "styles": {
-                                                                    "product": {
-                                                                        "@media (min-width: 601px)": {
-                                                                            "max-width": "100%",
-                                                                            "margin-left": "0px",
-                                                                            "margin-bottom": "0px"
-                                                                        }
-                                                                    },
-                                                                    "button": {
-                                                                        "font-size": "16px",
-                                                                        "padding-top": "16px",
-                                                                        "padding-bottom": "16px",
-                                                                        ":hover": {
-                                                                            "background-color": "#182e83"
-                                                                        },
-                                                                        "background-color": "#0e1b4d",
-                                                                        ":focus": {
-                                                                            "background-color": "#182e83"
-                                                                        },
-                                                                        "border-radius": "40px",
-                                                                        "padding-left": "86px",
-                                                                        "padding-right": "86px"
-                                                                    },
-                                                                    "quantityInput": {
-                                                                        "font-size": "16px",
-                                                                        "padding-top": "16px",
-                                                                        "padding-bottom": "16px"
-                                                                    }
-                                                                },
-                                                                "text": {
-                                                                    "button": "Add to cart"
-                                                                }
-                                                            },
-                                                            "option": {},
-                                                            "cart": {
-                                                                "styles": {
-                                                                    "button": {
-                                                                        "font-size": "16px",
-                                                                        "padding-top": "16px",
-                                                                        "padding-bottom": "16px",
-                                                                        ":hover": {
-                                                                            "background-color": "#182e83"
-                                                                        },
-                                                                        "background-color": "#0e1b4d",
-                                                                        ":focus": {
-                                                                            "background-color": "#182e83"
-                                                                        },
-                                                                        "border-radius": "40px"
-                                                                    }
-                                                                },
-                                                                "text": {
-                                                                    "total": "Subtotal",
-                                                                    "button": "Checkout"
-                                                                },
-                                                                "popup": false
-                                                            },
-                                                            "toggle": {
-                                                                "styles": {
-                                                                    "toggle": {
-                                                                        "background-color": "#0e1b4d",
-                                                                        ":hover": {
-                                                                            "background-color": "#182e83"
-                                                                        },
-                                                                        ":focus": {
-                                                                            "background-color": "#182e83"
-                                                                        }
-                                                                    },
-                                                                    "count": {
-                                                                        "font-size": "16px"
+                                                            "text": {
+                                                                "button": "Add to cart"
+                                                            }
+                                                        },
+                                                        "productSet": {
+                                                            "styles": {
+                                                                "products": {
+                                                                    "@media (min-width: 601px)": {
+                                                                        "margin-left": "-20px"
                                                                     }
                                                                 }
                                                             }
                                                         },
-                                                    });
+                                                        "modalProduct": {
+                                                            "contents": {
+                                                                "img": false,
+                                                                "imgWithCarousel": true,
+                                                                "button": false,
+                                                                "buttonWithQuantity": true
+                                                            },
+                                                            "styles": {
+                                                                "product": {
+                                                                    "@media (min-width: 601px)": {
+                                                                        "max-width": "100%",
+                                                                        "margin-left": "0px",
+                                                                        "margin-bottom": "0px"
+                                                                    }
+                                                                },
+                                                                "button": {
+                                                                    "font-size": "16px",
+                                                                    "padding-top": "16px",
+                                                                    "padding-bottom": "16px",
+                                                                    ":hover": {
+                                                                        "background-color": "#182e83"
+                                                                    },
+                                                                    "background-color": "#0e1b4d",
+                                                                    ":focus": {
+                                                                        "background-color": "#182e83"
+                                                                    },
+                                                                    "border-radius": "40px",
+                                                                    "padding-left": "86px",
+                                                                    "padding-right": "86px"
+                                                                },
+                                                                "quantityInput": {
+                                                                    "font-size": "16px",
+                                                                    "padding-top": "16px",
+                                                                    "padding-bottom": "16px"
+                                                                }
+                                                            },
+                                                            "text": {
+                                                                "button": "Add to cart"
+                                                            }
+                                                        },
+                                                        "option": {},
+                                                        "cart": {
+                                                            "styles": {
+                                                                "button": {
+                                                                    "font-size": "16px",
+                                                                    "padding-top": "16px",
+                                                                    "padding-bottom": "16px",
+                                                                    ":hover": {
+                                                                        "background-color": "#182e83"
+                                                                    },
+                                                                    "background-color": "#0e1b4d",
+                                                                    ":focus": {
+                                                                        "background-color": "#182e83"
+                                                                    },
+                                                                    "border-radius": "40px"
+                                                                }
+                                                            },
+                                                            "text": {
+                                                                "total": "Subtotal",
+                                                                "button": "Checkout"
+                                                            },
+                                                            "popup": false
+                                                        },
+                                                        "toggle": {
+                                                            "styles": {
+                                                                "toggle": {
+                                                                    "background-color": "#0e1b4d",
+                                                                    ":hover": {
+                                                                        "background-color": "#182e83"
+                                                                    },
+                                                                    ":focus": {
+                                                                        "background-color": "#182e83"
+                                                                    }
+                                                                },
+                                                                "count": {
+                                                                    "font-size": "16px"
+                                                                }
+                                                            }
+                                                        }
+                                                    },
                                                 });
-                                            }
-                                        })();
+                                            });
+                                        }
+                                    })();
                                     /*]]>*/
-                                    </script>
-                                    
+                                </script>
+
                             </div>
                             <div class="text-center">
                                 <h1 class="text-primary fw-bold" style="font-size: 4rem;">$45.99</h1>
@@ -1257,8 +1273,194 @@
                         <div class="card-body">
                             <img src="/assets/product-size-3.png" class="mw-100" alt="">
                             <div class="py-4">
-                                <a class="butn butn__new btn btn-secondary rounded-pill w-100 fw-bold fs-4 text-uppercase text-white px-4 py-3"
-                                    href="https://worxhandcleaner.com.au/products/bio-active-hand-cleaner-large">Shop Now <span class="text-primary">+</span></a>
+                                <!-- <a class="butn butn__new btn btn-secondary rounded-pill w-100 fw-bold fs-4 text-uppercase text-white px-4 py-3"
+                                    href="https://worxhandcleaner.com.au/products/bio-active-hand-cleaner-large">Shop Now <span class="text-primary">+</span></a> -->
+                                <div id='product-component-1685341297708'></div>
+                                <script type="text/javascript">
+                                    /*<![CDATA[*/
+                                    (function () {
+                                        var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                                        if (window.ShopifyBuy) {
+                                            if (window.ShopifyBuy.UI) {
+                                                ShopifyBuyInit();
+                                            } else {
+                                                loadScript();
+                                            }
+                                        } else {
+                                            loadScript();
+                                        }
+                                        function loadScript() {
+                                            var script = document.createElement('script');
+                                            script.async = true;
+                                            script.src = scriptURL;
+                                            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                                            script.onload = ShopifyBuyInit;
+                                        }
+                                        function ShopifyBuyInit() {
+                                            var client = ShopifyBuy.buildClient({
+                                                domain: 'worx-environmental-australia.myshopify.com',
+                                                storefrontAccessToken: 'd6e87929c08f447624bf912ac20cc17d',
+                                            });
+                                            ShopifyBuy.UI.onReady(client).then(function (ui) {
+                                                ui.createComponent('product', {
+                                                    id: '8201988636928',
+                                                    node: document.getElementById('product-component-1685341297708'),
+                                                    moneyFormat: '%24%7B%7Bamount%7D%7D',
+                                                    options: {
+                                                        "product": {
+                                                            "styles": {
+                                                                "product": {
+                                                                    "@media (min-width: 601px)": {
+                                                                        "max-width": "100%",
+                                                                        "margin-left": "20px",
+                                                                        "margin-bottom": "50px"
+                                                                    }
+                                                                },
+                                                                "button": {
+                                                                    "font-family": "Poppins, sans-serif !important",
+                                                                    "font-weight": "bold",
+                                                                    "font-size": "1.5rem !important",
+                                                                    "font-weight": "700 !important",
+                                                                    "padding-top": "24px",
+                                                                    "padding-bottom": "24px",
+                                                                    "width": "100% !important",
+                                                                    ":hover": {
+                                                                        "background-color": "#182e83"
+                                                                    },
+                                                                    "background-color": "#0e1b4d",
+                                                                    ":focus": {
+                                                                        "background-color": "#182e83"
+                                                                    },
+                                                                    "border-radius": "35px"
+                                                                },
+                                                                "quantityInput": {
+                                                                    "font-size": "18px",
+                                                                    "padding-top": "17px",
+                                                                    "padding-bottom": "17px"
+                                                                }
+                                                            },
+                                                            "contents": {
+                                                                "img": false,
+                                                                "title": false,
+                                                                "price": false
+                                                            },
+                                                            "text": {
+                                                                "button": "ADD TO CART"
+                                                            },
+                                                            "googleFonts": [
+                                                                "Montserrat"
+                                                            ]
+                                                        },
+                                                        "productSet": {
+                                                            "styles": {
+                                                                "products": {
+                                                                    "@media (min-width: 601px)": {
+                                                                        "margin-left": "-20px"
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "modalProduct": {
+                                                            "contents": {
+                                                                "img": false,
+                                                                "imgWithCarousel": true,
+                                                                "button": false,
+                                                                "buttonWithQuantity": true
+                                                            },
+                                                            "styles": {
+                                                                "product": {
+                                                                    "@media (min-width: 601px)": {
+                                                                        "max-width": "100%",
+                                                                        "margin-left": "0px",
+                                                                        "margin-bottom": "0px"
+                                                                    }
+                                                                },
+                                                                "button": {
+                                                                    "font-family": "Montserrat, sans-serif",
+                                                                    "font-weight": "bold",
+                                                                    "font-size": "18px",
+                                                                    "padding-top": "17px",
+                                                                    "padding-bottom": "17px",
+                                                                    ":hover": {
+                                                                        "background-color": "#182e83"
+                                                                    },
+                                                                    "background-color": "#0e1b4d",
+                                                                    ":focus": {
+                                                                        "background-color": "#182e83"
+                                                                    },
+                                                                    "border-radius": "35px",
+                                                                    "padding-left": "73px",
+                                                                    "padding-right": "73px"
+                                                                },
+                                                                "quantityInput": {
+                                                                    "font-size": "18px",
+                                                                    "padding-top": "17px",
+                                                                    "padding-bottom": "17px"
+                                                                }
+                                                            },
+                                                            "googleFonts": [
+                                                                "Montserrat"
+                                                            ],
+                                                            "text": {
+                                                                "button": "Add to cart"
+                                                            }
+                                                        },
+                                                        "option": {},
+                                                        "cart": {
+                                                            "styles": {
+                                                                "button": {
+                                                                    "font-family": "Montserrat, sans-serif",
+                                                                    "font-weight": "bold",
+                                                                    "font-size": "18px",
+                                                                    "padding-top": "17px",
+                                                                    "padding-bottom": "17px",
+                                                                    ":hover": {
+                                                                        "background-color": "#182e83"
+                                                                    },
+                                                                    "background-color": "#0e1b4d",
+                                                                    ":focus": {
+                                                                        "background-color": "#182e83"
+                                                                    },
+                                                                    "border-radius": "35px"
+                                                                }
+                                                            },
+                                                            "text": {
+                                                                "total": "Subtotal",
+                                                                "button": "Checkout"
+                                                            },
+                                                            "popup": false,
+                                                            "googleFonts": [
+                                                                "Montserrat"
+                                                            ]
+                                                        },
+                                                        "toggle": {
+                                                            "styles": {
+                                                                "toggle": {
+                                                                    "font-family": "Montserrat, sans-serif",
+                                                                    "font-weight": "bold",
+                                                                    "background-color": "#0e1b4d",
+                                                                    ":hover": {
+                                                                        "background-color": "#182e83"
+                                                                    },
+                                                                    ":focus": {
+                                                                        "background-color": "#182e83"
+                                                                    }
+                                                                },
+                                                                "count": {
+                                                                    "font-size": "18px"
+                                                                }
+                                                            },
+                                                            "googleFonts": [
+                                                                "Montserrat"
+                                                            ]
+                                                        }
+                                                    },
+                                                });
+                                            });
+                                        }
+                                    })();
+                                    /*]]>*/
+                                </script>
                             </div>
                             <div class="text-center">
                                 <h1 class="text-primary fw-bold" style="font-size: 4rem;">$139.99</h1>
@@ -1290,25 +1492,28 @@
                     <div class="accordion" id="accordionExample">
 
                         <div class="d-flex justify-content-evenly align-items-center my-4 pb-4">
-                            
+
 
                             <h2 class="accordion-header rounded-pill overflow-hidden" id="productTwo">
                                 <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseProdTwo" aria-expanded="false" aria-controls="collapseProdTwo">
-                                   35
+                                    data-bs-target="#collapseProdTwo" aria-expanded="false"
+                                    aria-controls="collapseProdTwo">
+                                    35
                                 </button>
                             </h2>
 
                             <h2 class="accordion-header rounded-pill overflow-hidden" id="productThree">
                                 <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseProdThree" aria-expanded="false" aria-controls="collapseProdThree">
+                                    data-bs-target="#collapseProdThree" aria-expanded="false"
+                                    aria-controls="collapseProdThree">
                                     320
                                 </button>
                             </h2>
 
                             <h2 class="accordion-header rounded-pill overflow-hidden" id="productOne">
-                                <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseProdOne"
-                                    aria-expanded="true" aria-controls="collapseProdOne">
+                                <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseProdOne" aria-expanded="true"
+                                    aria-controls="collapseProdOne">
                                     950
                                 </button>
                             </h2>
@@ -1317,18 +1522,20 @@
                         <!-- Product 3 -->
                         <div class="accordion-item">
 
-                            <div id="collapseProdOne" class="accordion-collapse collapse show" aria-labelledby="productOne"
-                                data-bs-parent="#accordionExample">
+                            <div id="collapseProdOne" class="accordion-collapse collapse show"
+                                aria-labelledby="productOne" data-bs-parent="#accordionExample">
                                 <div class="accordion-body p-0">
                                     <div class="card border-0 bg-white overflow-hidden">
-                                        <div class=" text-center mb-2" style="background: linear-gradient(272.98deg,#d9ae50 7.57%,#ffdd94 98.94%);">
+                                        <div class=" text-center mb-2"
+                                            style="background: linear-gradient(272.98deg,#d9ae50 7.57%,#ffdd94 98.94%);">
                                             <h2 class="mb-0 text-secondary fw-bold py-3">BEST VALUE</h2>
                                         </div>
                                         <div class="card-body text-center">
                                             <img src="/assets/product-size-3.png" class="mw-100" alt="">
                                             <div class="py-4">
                                                 <a class="butn butn__new btn btn-secondary rounded-pill w-100 fw-bold fs-4 text-uppercase text-white px-4 py-3"
-                                                    href="https://worxhandcleaner.com.au/products/bio-active-hand-cleaner-large">Shop Now <span class="text-primary">+</span></a>
+                                                    href="https://worxhandcleaner.com.au/products/bio-active-hand-cleaner-large">Shop
+                                                    Now <span class="text-primary">+</span></a>
                                             </div>
                                             <div class="text-center">
                                                 <h1 class="text-primary fw-bold" style="font-size: 4rem;">$139.99</h1>
@@ -1354,14 +1561,15 @@
                             <div id="collapseProdTwo" class="accordion-collapse collapse" aria-labelledby="productTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body p-0">
-                                    
+
 
                                     <div class="card border-0">
                                         <div class="card-body">
                                             <img src="/assets/product-size-2.png" class="mw-100" alt="">
                                             <div class="py-4">
                                                 <a class="butn butn__new btn btn-secondary rounded-pill w-100 fw-bold fs-4 text-uppercase text-white px-4 py-3"
-                                                    href="https://worxhandcleaner.com.au/products/bio-active-hand-cleaner-small">Shop Now
+                                                    href="https://worxhandcleaner.com.au/products/bio-active-hand-cleaner-small">Shop
+                                                    Now
                                                     <span class="text-primary">+</span></a>
                                             </div>
                                             <div class="text-center">
@@ -1384,15 +1592,16 @@
                         <!-- Product 2 -->
                         <div class="accordion-item">
 
-                            <div id="collapseProdThree" class="accordion-collapse collapse" aria-labelledby="productThree"
-                                data-bs-parent="#accordionExample">
+                            <div id="collapseProdThree" class="accordion-collapse collapse"
+                                aria-labelledby="productThree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body p-0">
                                     <div class="card border-0">
                                         <div class="card-body">
                                             <img src="/assets/product-size-1.png" class="mw-100" alt="">
                                             <div class="py-4">
                                                 <a class="butn butn__new btn btn-secondary rounded-pill w-100 fw-bold fs-4 text-uppercase text-white px-4 py-3"
-                                                    href="https://worxhandcleaner.com.au/products/bio-active-hand-cleaner-medium">Shop Now
+                                                    href="https://worxhandcleaner.com.au/products/bio-active-hand-cleaner-medium">Shop
+                                                    Now
                                                     <span class="text-primary">+</span></a>
                                             </div>
                                             <div class="text-center">
@@ -1414,7 +1623,7 @@
 
 
 
-                    
+
 
                 </div>
 
