@@ -96,15 +96,22 @@ $('a[href*=\\#]:not([href=\\#])').click(function() {
 });
 
 
-$('.showBtn').click(function() {
-    //$('.hideme').hide();  
-    if ($(this).hasClass('active')) {    
-        $(this).removeClass('active');
-        $('.hideme').slideUp();
-    } else {
-        $('.hideme').slideUp();
-        $('.showBtn').removeClass('active');
-        $(this).addClass('active');
-        $(this).next().filter('.hideme').slideDown();
-    }
+
+
+// $(window).load(function() {
+//     setTimeout(function () {
+//         console.log('Hello');
+//          $("#productThree").trigger('click'); 
+//         $("#productTwo").trigger('click');
+//     }, 2000);
+// });
+
+
+$(document).ready(function(){
+    // console.log('Hello');
+    setTimeout(function () {
+        console.log('Hello');
+        $("#smallProduct").trigger('click'); 
+        $("#mediumProduct").trigger('click');
+    }, 3500);
 });
