@@ -94,3 +94,17 @@ $('a[href*=\\#]:not([href=\\#])').click(function() {
         scrollTop: $("#chooseSize").offset().top},
         'slow');
 });
+
+
+$('.showBtn').click(function() {
+    //$('.hideme').hide();  
+    if ($(this).hasClass('active')) {    
+        $(this).removeClass('active');
+        $('.hideme').slideUp();
+    } else {
+        $('.hideme').slideUp();
+        $('.showBtn').removeClass('active');
+        $(this).addClass('active');
+        $(this).next().filter('.hideme').slideDown();
+    }
+});
