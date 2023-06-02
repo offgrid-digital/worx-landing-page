@@ -113,5 +113,5 @@ $(document).ready(function(){
         console.log('Hello');
         $("#smallProduct").trigger('click'); 
         $("#mediumProduct").trigger('click');
-    }, 3500);
+    }, 4000);
 });
