@@ -85,5 +85,5 @@ $(document).ready(function(){
     setTimeout(function () {
         $("#smallProduct").trigger('click'); 
         $("#mediumProduct").trigger('click');
-    }, 2500);
+    }, 3500);
 });
