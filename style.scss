@@ -293,11 +293,11 @@ header{
             display: block !important;
         }
 
-            // .collapsing {
-            //     -webkit-transition: none;
-            //     transition: none;
-            //     display: none;
-            // }
+            .collapsing {
+                -webkit-transition: none;
+                transition: none;
+                display: none;
+            }
         .accordion-item{
             background: $secondary-color;
             border-radius: 36px;
