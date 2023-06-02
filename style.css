@@ -241,6 +241,11 @@ header .button-parent {
   }
 }
 
+@media screen and (max-width: 968px) {
+  .worx_shoose_size {
+    background: #0E1B4D !important;
+  }
+}
 .worx_shoose_size .free-shipping-banner img {
   position: relative;
   width: 106%;
@@ -270,6 +275,7 @@ header .button-parent {
   }
 }
 .worx_shoose_size_mbl .accordion-item {
+  background: #0E1B4D;
   border-radius: 36px;
   border: none;
 }
@@ -283,7 +289,7 @@ header .button-parent {
   display: none;
 }
 .worx_shoose_size_mbl .accordion-button:not(.collapsed) {
-  background: #0E1B4D;
+  background: #39B14E;
   color: white;
 }
 
