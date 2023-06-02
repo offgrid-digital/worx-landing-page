@@ -55,6 +55,9 @@ $('.worx_trusted_mbl > .owl-carousel').owlCarousel({
     margin: 10,
     nav: false,
     dot: true,
+    // animateOut: 'slideOutDown',
+    // animateIn: 'flipInX',
+    // smartSpeed: 450,
     autoplay: false,
     autoplayTimeout: 2000,
     
@@ -72,6 +75,19 @@ $('.worx_trusted_mbl > .owl-carousel').owlCarousel({
     }
 });
 
+// $(function() {
+//     $('a[href*=\\#]:not([href=\\#])').on('click', function() {
+//         var target = $(this.hash);
+//         target = target.length ? target : $('[name=' + this.hash.substr(1) +']');
+//         if (target.length) {
+//             $('html,body').animate({
+//                 scrollTop: target.offset().top
+//             }, 1000);
+//             return false;
+//         }
+//     });
+
+// });
 
 $('a[href*=\\#]:not([href=\\#])').click(function() {
     $('html,body').animate({
@@ -80,9 +96,21 @@ $('a[href*=\\#]:not([href=\\#])').click(function() {
 });
 
 
+
+
+// $(window).load(function() {
+//     setTimeout(function () {
+//         console.log('Hello');
+//          $("#productThree").trigger('click'); 
+//         $("#productTwo").trigger('click');
+//     }, 2000);
+// });
+
+
 $(document).ready(function(){
     // console.log('Hello');
     setTimeout(function () {
+        console.log('Hello');
         $("#smallProduct").trigger('click'); 
         $("#mediumProduct").trigger('click');
     }, 3500);
