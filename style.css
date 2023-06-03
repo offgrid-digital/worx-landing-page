@@ -297,6 +297,65 @@ header .button-parent {
   background: #39B14E;
   color: white;
 }
+.worx_shoose_size_mbl ul.tabs {
+  margin: 0;
+  padding: 0;
+  float: left;
+  list-style: none;
+  width: 100%;
+  color: white !important;
+  justify-content: space-evenly !important;
+}
+.worx_shoose_size_mbl ul.tabs li {
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: 7px;
+  background: #39B14E;
+  color: white;
+}
+.worx_shoose_size_mbl ul.tabs li:hover {
+  background-color: #ccc;
+  color: #333;
+}
+.worx_shoose_size_mbl ul.tabs li.active {
+  background-color: #fff !important;
+  color: #39B14E !important;
+  display: block !important;
+}
+.worx_shoose_size_mbl .tab_container {
+  border-top: none;
+  clear: both;
+  float: left;
+  width: 100%;
+  overflow: auto;
+}
+.worx_shoose_size_mbl .tab_drawer_heading {
+  display: none;
+}
+@media screen and (max-width: 480px) {
+  .worx_shoose_size_mbl .tabs {
+    display: none;
+  }
+  .worx_shoose_size_mbl .tab_drawer_heading {
+    background-color: #ccc;
+    color: #fff;
+    border-top: 1px solid #333;
+    margin: 0;
+    padding: 5px 20px;
+    display: block;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  .worx_shoose_size_mbl .d_active {
+    background-color: #666;
+    color: #fff;
+  }
+}
 
 .card-body iframe {
   width: 100%;

@@ -318,6 +318,80 @@ header{
                 color: white;
             }
         }
+
+                ul.tabs {
+                    margin: 0;
+                    padding: 0;
+                    float: left;
+                    list-style: none;
+                    width: 100%;
+                    color: white !important;
+                    justify-content: space-evenly !important;
+                }
+        
+                ul.tabs li {
+                    cursor: pointer;
+                    font-size: 1.5rem;
+                    font-weight: 700;
+                    padding: 0.5rem 1rem;
+                    border-radius: 7px;
+                    background: $primary-color;
+                    color: white;
+
+                }
+        
+                ul.tabs li:hover {
+                    background-color: #ccc;
+                    color: #333;
+                }
+        
+                ul.tabs li.active {
+                    background-color: #fff !important;
+                    color: $primary-color !important;
+                    display: block !important;
+                }
+        
+                .tab_container {
+                    border-top: none;
+                    clear: both;
+                    float: left;
+                    width: 100%;
+                    overflow: auto;
+                }
+        
+                .tab_content {
+                }
+        
+                .tab_drawer_heading {
+                    display: none;
+                }
+        
+            @media screen and (max-width: 480px) {
+                .tabs {
+                    display: none;
+                }
+    
+                .tab_drawer_heading {
+                    background-color: #ccc;
+                    color: #fff;
+                    border-top: 1px solid #333;
+                    margin: 0;
+                    padding: 5px 20px;
+                    display: block;
+                    cursor: pointer;
+                    -webkit-touch-callout: none;
+                    -webkit-user-select: none;
+                    -khtml-user-select: none;
+                    -moz-user-select: none;
+                    -ms-user-select: none;
+                    user-select: none;
+                }
+    
+                .d_active {
+                    background-color: #666;
+                    color: #fff;
+                }
+            }
     }
 }
 

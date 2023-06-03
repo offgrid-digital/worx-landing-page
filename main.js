@@ -110,8 +110,39 @@ $('a[href*=\\#]:not([href=\\#])').click(function() {
 $(document).ready(function(){
     // console.log('Hello');
     setTimeout(function () {
-        console.log('Hello');
-        $("#smallProduct").trigger('click'); 
-        $("#mediumProduct").trigger('click');
-    }, 4000);
+        // console.log('Hello');
+        // $("#smallProduct").trigger('click'); 
+        // $("#mediumProduct").trigger('click');
+        $(".tab_content").hide();
+        $(".tab_content:nth-child(3)").show();
+    }, 3000);
 });
+
+
+
+
+
+ // tabbed content
+    // http://www.entheosweb.com/tutorials/css/tabs.asp
+  
+   
+
+  /* if in tab mode */
+    $("ul.tabs li").click(function() {
+		
+        $(".tab_content").hide();
+        var activeTab = $(this).attr("rel"); 
+        $("#"+activeTab).fadeIn();		
+            
+        $("ul.tabs li").removeClass("active");
+            
+        $(this).addClass("active");
+	  
+    });
+	
+	
+	/* Extra class "tab_last" 
+	   to add border to right side
+	   of last tab */
+	// $('ul.tabs li').last().addClass("tab_last");
+	
