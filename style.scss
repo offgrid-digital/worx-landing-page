@@ -519,6 +519,10 @@ footer{
             top: 17%;
             width: 30px;
     
+            @media screen and (max-width:768px) {
+                display: block !important;
+            }
+
         }
     
         .owl-prev {
@@ -529,7 +533,69 @@ footer{
     
             top: 17%;
             width: 30px;
+            
     
         }
     }
 }
+
+.worx_trusted_mbl{
+    .card{
+        @media screen and (max-width:768px) {
+            width: 85% !important;
+        }
+    }
+    .owl-nav {
+        button {
+            margin: 0 !important;
+        }
+
+        .owl-next {
+            background: $secondary-color !important;
+            font-size: 3rem !important;
+            position: absolute;
+            right: -50px;
+
+            top:40%;
+            width: 36px;
+            color: #fff !important;
+            @media screen and (max-width:768px) {
+                right: 0px;
+            }
+
+        }
+
+        .owl-prev {
+            background: $secondary-color !important;
+            font-size: 3rem !important;
+            position: absolute;
+            left: -50px;
+
+            top: 40%;
+            width: 36px;
+            color: #fff !important;
+            @media screen and (max-width:768px) {
+                left: 0px;
+            }
+
+        }
+    }
+}
+
+
+
+.video-container {
+    height: 500px;
+    width: 100%;
+    border-radius: 8px ;
+    overflow: hidden;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */

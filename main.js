@@ -52,7 +52,7 @@ $('.worx_property_mbl > .owl-carousel').owlCarousel({
 
 $('.worx_trusted_mbl > .owl-carousel').owlCarousel({
     loop: true,
-    margin: 10,
+    margin: 20,
     nav: true,
     dot: true,
     // animateOut: 'slideOutDown',
@@ -67,10 +67,17 @@ $('.worx_trusted_mbl > .owl-carousel').owlCarousel({
             
         },
         600: {
-            items: 1.2
+            items: 1
         },
         767: {
-            items: 1.1
+            items: 1
+        },
+        1000: {
+            items:3
+        },
+
+        1200: {
+            items:4
         }
     }
 });
