@@ -38,14 +38,14 @@ $('.worx_property_mbl > .owl-carousel').owlCarousel({
     
     responsive: {
         0: {
-            items: 1.25,
+            items: 1
             
         },
         600: {
-            items: 1.25
+            items: 1
         },
         767: {
-            items: 1.1
+            items: 1
         }
     }
 });
