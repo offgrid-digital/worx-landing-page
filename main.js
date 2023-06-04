@@ -27,14 +27,14 @@ $('.worx_testimomials_mbl_carousel > .owl-carousel').owlCarousel({
 $('.worx_property_mbl > .owl-carousel').owlCarousel({
     loop: true,
     margin: 10,
-    nav: false,
+    nav: true,
     dot: true,
     center:true,
     // animateOut: 'slideOutDown',
     // animateIn: 'flipInX',
     // smartSpeed: 450,
     autoplay: true,
-    autoplayTimeout: 2000,
+    autoplayTimeout: 3000,
     
     responsive: {
         0: {
@@ -53,7 +53,7 @@ $('.worx_property_mbl > .owl-carousel').owlCarousel({
 $('.worx_trusted_mbl > .owl-carousel').owlCarousel({
     loop: true,
     margin: 10,
-    nav: false,
+    nav: true,
     dot: true,
     // animateOut: 'slideOutDown',
     // animateIn: 'flipInX',
