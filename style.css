@@ -428,22 +428,27 @@ footer a:hover {
   background: #39B14E !important;
   font-size: 3rem !important;
   position: absolute;
-  right: -10px;
+  right: -50px;
   top: 17%;
   width: 30px;
 }
 @media screen and (max-width: 768px) {
   .worx_property_mbl .owl-nav .owl-next {
-    display: block !important;
+    right: -10px;
   }
 }
 .worx_property_mbl .owl-nav .owl-prev {
   background: #39B14E !important;
   font-size: 3rem !important;
   position: absolute;
-  left: -10px;
+  left: -50px;
   top: 17%;
   width: 30px;
+}
+@media screen and (max-width: 768px) {
+  .worx_property_mbl .owl-nav .owl-prev {
+    right: -10px;
+  }
 }
 
 @media screen and (max-width: 768px) {
