@@ -129,7 +129,7 @@ $(document).ready(function(){
         // $("#mediumProduct").trigger('click');
         $(".tab_content").hide();
         $(".tab_content:nth-child(3)").show();
-    }, 3000);
+    }, 3500);
 });
 
 
