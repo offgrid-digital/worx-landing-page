@@ -110,17 +110,6 @@ $('a[href*=\\#]:not([href=\\#])').click(function() {
 });
 
 
-
-
-// $(window).load(function() {
-//     setTimeout(function () {
-//         console.log('Hello');
-//          $("#productThree").trigger('click'); 
-//         $("#productTwo").trigger('click');
-//     }, 2000);
-// });
-
-
 $(document).ready(function(){
     // console.log('Hello');
     setTimeout(function () {
