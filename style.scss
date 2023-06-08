@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
+
+
+
+
 $primary-color: #39B14E;
 $secondary-color: #0E1B4D;
 
@@ -603,3 +607,25 @@ footer{
 }
 
 /* Just styling the content of the div, the *magic* in the previous rules */
+
+
+.loader {
+    border: 9px solid #f3f3f3;
+    /* Light grey */
+    border-top: 9px solid $secondary-color;
+    /* Blue */
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

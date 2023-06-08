@@ -503,4 +503,23 @@ footer a:hover {
   z-index: 0;
 }
 
-/* Just styling the content of the div, the *magic* in the previous rules *//*# sourceMappingURL=style.css.map */
+/* Just styling the content of the div, the *magic* in the previous rules */
+.loader {
+  border: 9px solid #f3f3f3;
+  /* Light grey */
+  border-top: 9px solid #0E1B4D;
+  /* Blue */
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=style.css.map */
